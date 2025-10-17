@@ -10,7 +10,7 @@ export const Button = ({ children, ...props }: ButtonProps) => {
       className={cx(
         button(props),
         css({
-          padding: '24px',
+          background: 'transparent',
           fontSize: '24px',
           lineHeight: '2',
           _hover: {

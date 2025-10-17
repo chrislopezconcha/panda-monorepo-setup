@@ -182,8 +182,6 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
 
-  examples/with-import-map-package/ui-lib/styled-system: {}
-
   examples/with-import-map/app:
     dependencies:
       panda-mono-with-import-map-ui-lib:
@@ -257,8 +255,6 @@ importers:
       react-dom:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
-
-  examples/with-import-map/ui-lib/styled-system: {}
 
   examples/with-preset/app:
     dependencies:
@@ -383,7 +379,11 @@ importers:
         specifier: ^4.4.5
         version: 4.4.5
 
-  examples/with-src-files/generated: {}
+  examples/with-src-files/generated:
+    dependencies:
+      react:
+        specifier: '>=18.0.0'
+        version: 18.2.0
 
   examples/with-src-files/ui-lib:
     dependencies:

@@ -29,3 +29,15 @@ ts-import-map-outdir
 
 !packages/studio/styled-system
 packages/studio/src/lib/analysis.json
+
+examples/with-src-files/generated/css
+examples/with-src-files/generated/jsx
+examples/with-src-files/generated/recipes
+examples/with-src-files/generated/styles.css
+examples/with-src-files/generated/tokens
+examples/with-src-files/generated/types
+examples/with-src-files/generated/patterns
+examples/with-src-files/generated/helpers.mjs
+examples/with-static-css
+examples/with-build-info
+examples/with-preset

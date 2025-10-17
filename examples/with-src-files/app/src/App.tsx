@@ -1,8 +1,8 @@
 import './App.css'
-import { css, cx } from '@acme/ui-lib/css'
-import { Stack } from '@acme/ui-lib/jsx'
-import { button } from '@acme/ui-lib/recipes'
-import { Button } from 'panda-mono-with-src-files-ui-lib'
+import { css, cx } from '../../generated/css'
+import { Stack } from '../../generated/jsx'
+import { button } from '../../generated/recipes'
+import { Button } from '../../ui-lib/src/button'
 
 function App() {
   return (

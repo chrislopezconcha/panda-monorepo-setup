@@ -1,15 +1,15 @@
 
-`run pnpm install`
+`pnpm install`
 
 then cd examples/with-src-files/ui-lib
 
-`run pnpm prepare`
+`pnpm prepare`
 
 then cd examples/with-src-files/app
 
-`run pnpm build`
+`pnpm build`
 
-`run pnpm preview`
+`pnpm preview`
 
 
 

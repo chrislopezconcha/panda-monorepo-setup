@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "pnpm -r dev",
-    "build": "pnpm -r --filter examples/with-static-css build",
+    "build": "pnpm -r build",
     "fmt": "prettier --write ."
   },
   "dependencies": {

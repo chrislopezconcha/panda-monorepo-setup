@@ -4,7 +4,7 @@ import { css, cx } from '../../generated/css'
 
 export interface ButtonProps extends ButtonVariantProps, PropsWithChildren {}
 
-export const TestSection = ({ children, ...props }: ButtonProps) => {
+export const TestSection2 = ({ children, ...props }: ButtonProps) => {
   return (
     <button
       className={cx(

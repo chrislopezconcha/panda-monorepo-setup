@@ -21,7 +21,17 @@
     "noFallthroughCasesInSwitch": true,
     //
     "allowSyntheticDefaultImports": true,
-    "allowJs": true
+    "allowJs": true,
+    "paths": {
+      "@acme/ui-lib/css": ["../generated/css"],
+      "@acme/ui-lib/recipes": ["../generated/recipes"],
+      "@acme/ui-lib/patterns": ["../generated/patterns"],
+      "@acme/ui-lib/jsx": ["../generated/jsx"],
+      "@acme/ui-lib/css/*": ["../generated/css/*"],
+      "@acme/ui-lib/recipes/*": ["../generated/recipes/*"],
+      "@acme/ui-lib/patterns/*": ["../generated/patterns/*"],
+      "@acme/ui-lib/jsx/*": ["../generated/jsx/*"]
+    }
   },
   "include": ["src"]
 }

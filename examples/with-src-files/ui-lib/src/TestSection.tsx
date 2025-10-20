@@ -1,6 +1,6 @@
 import { PropsWithChildren } from 'react'
-import { button, type ButtonVariantProps } from '../../generated/recipes'
-import { css, cx } from '../../generated/css'
+import { button, type ButtonVariantProps } from '@acme/ui-lib/recipes'
+import { css, cx } from '@acme/ui-lib/css'
 
 export interface ButtonProps extends ButtonVariantProps, PropsWithChildren {}
 
